@@ -50,6 +50,10 @@ namespace GoogleARCore.HelloAR
         /// </summary>
         public GameObject m_searchingForPlaneUI;
 
+        public int m_maxAndyCount = 16;
+
+        private List<GameObject> m_andyObjects = new List<GameObject>();
+
         private List<TrackedPlane> m_newPlanes = new List<TrackedPlane>();
 
         private List<TrackedPlane> m_allPlanes = new List<TrackedPlane>();
@@ -129,8 +133,15 @@ namespace GoogleARCore.HelloAR
             TrackableHit hit;
             TrackableHitFlag raycastFilter = TrackableHitFlag.PlaneWithinBounds | TrackableHitFlag.PlaneWithinPolygon;
 
+            // Handle touch events
             if (Session.Raycast(m_firstPersonCamera.ScreenPointToRay(touch.position), raycastFilter, out hit))
             {
+                if (m_andyObjects.Count >= m_maxAndyCount)
+                {
+                    // Remove oldest Andy first
+                    Destroy(m_andyObjects[0]);
+                    m_andyObjects.RemoveAt(0);
+                }
                 // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
                 // world evolves.
                 var anchor = Session.CreateAnchor(hit.Point, Quaternion.identity);
@@ -148,6 +159,7 @@ namespace GoogleARCore.HelloAR
                 // Use a plane attachment component to maintain Andy's y-offset from the plane
                 // (occurs after anchor updates).
                 andyObject.GetComponent<PlaneAttachment>().Attach(hit.Plane);
+                m_andyObjects.Add(andyObject);
             }
         }
 
