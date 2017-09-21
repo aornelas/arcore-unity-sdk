@@ -48,6 +48,7 @@ namespace GoogleARCore.HelloAR
         /// </summary>
         public void Update()
         {
+#if !UNITY_EDITOR
             // If the plane has been subsumed switch attachment to the subsuming plane.
             while (m_AttachedPlane.SubsumedBy != null)
             {
@@ -76,6 +77,7 @@ namespace GoogleARCore.HelloAR
 
             transform.position = new Vector3(transform.position.x, m_AttachedPlane.Position.y + m_planeYOffset,
                 transform.position.z);
+#endif
         }
 
         /// <summary>
