@@ -256,6 +256,15 @@ namespace GoogleARCore.HelloAR
             _UpdatePositionZLabel ();
         }
 
+        public void Rotate (int multiplier)
+        {
+            GetComponent<AudioSource> ().Play ();
+            float rotateAmount = m_modifierStep * multiplier * 100;
+            Quaternion currentRotation = _currentTown.transform.rotation;
+            _currentTown.transform.rotation = Quaternion.Euler (_currentTown.transform.rotation.x,
+                _currentTown.transform.rotation.eulerAngles.y + rotateAmount, _currentTown.transform.rotation.z);
+        }
+
         private void _UpdateSizeLabel ()
         {
             Vector3 currentSize = _currentTown.transform.localScale;
