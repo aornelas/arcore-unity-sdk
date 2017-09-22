@@ -59,6 +59,8 @@ namespace GoogleARCore.HelloAR
         /// </summary>
         public float m_modifierStep;
 
+        private bool _placingPeople;
+
         private GameObject _currentTown;
 
         private Camera _activeCamera;
@@ -70,11 +72,10 @@ namespace GoogleARCore.HelloAR
         public void Start ()
         {
             m_devPanel.SetActive (false);
+            _placingPeople = false;
 #if UNITY_EDITOR
             m_editorCamera.gameObject.SetActive (true);
             _activeCamera = m_editorCamera;
-            Vector3 position = new Vector3 (0, 0, 0);
-            PlaceTown (position, null);
 #elif UNITY_ANDROID
             _activeCamera = m_arCoreController.Init ();
 #elif UNITY_IOS
@@ -88,11 +89,14 @@ namespace GoogleARCore.HelloAR
         public void Update ()
         {
 #if UNITY_EDITOR
-//            if (Input.GetMouseButtonDown (0)) {
-//                Vector3 position = new Vector3 (0, 0, 0);
-//
-//                PlaceTown (position, null);
-//            }
+            if (Input.GetMouseButtonDown (0)) {
+                if (_placingPeople) {
+                    // Place people
+                } else if (!m_devPanel.activeSelf) { // otherwise dev panel clicks overlap with placing towns
+                    Vector3 position = new Vector3 (0, 0, 0);
+                    PlaceTown (position, null);
+                }
+            }
 #elif UNITY_ANDROID
             m_arCoreController.ARUpdate ();
 #elif UNITY_IOS
@@ -102,7 +106,8 @@ namespace GoogleARCore.HelloAR
 
         public GameObject PlaceTown (Vector3 position, Transform parent)
         {
-            if (m_devPanel.activeSelf) {
+            if (m_devPanel.activeSelf)
+            {
                 return _currentTown;
             }
             if (_currentTown != null) {
@@ -122,7 +127,22 @@ namespace GoogleARCore.HelloAR
                 townObject.transform.rotation.z);
 
             _currentTown = townObject;
+            ToggleDevPanel (true);
             return townObject;
+        }
+
+        public void CommitTown ()
+        {
+            _currentTown.transform.Find ("glass-ball").gameObject.SetActive (false);
+            ToggleDevPanel (false);
+            _placingPeople = true;
+        }
+
+        public void DeleteTown ()
+        {
+            ToggleDevPanel (false);
+            Destroy (_currentTown);
+            _placingPeople = false;
         }
 
         public void ToggleDevPanel (bool show)
@@ -187,7 +207,7 @@ namespace GoogleARCore.HelloAR
 
         private double _Round (float val)
         {
-            return System.Math.Round (val, 2);
+            return System.Math.Round (val, 3);
         }
     }
 }
