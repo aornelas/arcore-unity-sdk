@@ -131,7 +131,6 @@ namespace GoogleARCore.HelloAR
             TrackableHit hit;
             TrackableHitFlag raycastFilter = TrackableHitFlag.PlaneWithinBounds | TrackableHitFlag.PlaneWithinPolygon;
             if (Session.Raycast (m_firstPersonCamera.ScreenPointToRay (touch.position), raycastFilter, out hit)) {
-                Debug.Log ("Plane touched");
                 // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
                 // world evolves.
                 GoogleARCore.Anchor anchor = Session.CreateAnchor (hit.Point, Quaternion.identity);

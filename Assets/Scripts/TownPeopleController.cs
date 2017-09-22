@@ -45,7 +45,27 @@ namespace GoogleARCore.HelloAR
         /// The prefab to create the town from
         /// </summary>
         public GameObject m_townPrefab;
-        
+
+        /// <summary>
+        /// The list of prefabs to place when a raycast from a user touch hits a plane.
+        /// </summary>
+        public List<GameObject> m_characterPrefabs;
+
+        /// <summary>
+        /// The prefab to use when spawning an ad.
+        /// </summary>
+        public GameObject m_adPrefab;
+
+        /// <summary>
+        /// How hard to throw the ad.
+        /// </summary>
+        public float m_adThrowForce;
+
+        /// <summary>
+        /// How many characters to spawn between ads.
+        /// </summary>
+        public int m_adFrequency = 5;
+
         /// <summary>
         /// Developer UI
         /// </summary>
@@ -60,6 +80,8 @@ namespace GoogleARCore.HelloAR
         public float m_modifierStep;
 
         private bool _placingPeople;
+
+        private int _spawnCount;
 
         private GameObject _currentTown;
 
@@ -91,7 +113,10 @@ namespace GoogleARCore.HelloAR
 #if UNITY_EDITOR
             if (Input.GetMouseButtonDown (0)) {
                 if (_placingPeople) {
-                    // Place people
+                    float randomX = Random.Range (0.0f, 2.0f);
+                    float randomZ = Random.Range (0.0f, 2.0f);
+                    Vector3 position = new Vector3 (randomX, 0, randomZ);
+                    PlaceCharacter (position, _currentTown.transform);
                 } else if (!m_devPanel.activeSelf) { // otherwise dev panel clicks overlap with placing towns
                     Vector3 position = new Vector3 (0, 0, 0);
                     PlaceTown (position, null);
@@ -130,12 +155,55 @@ namespace GoogleARCore.HelloAR
             ToggleDevPanel (true);
             return townObject;
         }
+        
+        public GameObject PlaceCharacter (Vector3 position, Transform parent)
+        {
+            bool adTime = (_spawnCount + 1) % (m_adFrequency + 1) == 0;
+            int randomIndex = Random.Range (0, m_characterPrefabs.Count - 1);
+
+            GameObject spawnPrefab = adTime ? m_adPrefab : m_characterPrefabs [randomIndex];
+
+            position.y += 0.5f;
+#if UNITY_EDITOR
+            // Spawn ad in front of editor camera
+            if (adTime) {
+                position.x = 1.5f;
+                position.z = 0.0f;
+            }
+#endif
+
+            GameObject spawnedObject = Instantiate (spawnPrefab, position, Quaternion.identity, null);
+
+            // Adjust size for Simple Citizens prefabs
+            float sizeMultiplier = _currentTown.transform.localScale.x;
+            spawnedObject.transform.localScale = new Vector3 (sizeMultiplier, sizeMultiplier, sizeMultiplier);
+
+            // Andy should look at the camera but still be flush with the plane.
+            spawnedObject.transform.LookAt (_activeCamera.transform);
+            spawnedObject.transform.rotation = Quaternion.Euler (0.0f, spawnedObject.transform.rotation.eulerAngles.y,
+            spawnedObject.transform.rotation.z);
+            spawnedObject.transform.SetParent (parent);
+
+            _spawnCount++;
+
+            if (adTime) {
+                // Add some force to throw the ad cube
+                spawnedObject.GetComponent<Rigidbody> ().AddForce (spawnedObject.transform.forward * m_adThrowForce * -0.5f);
+                spawnedObject.GetComponent<Rigidbody> ().AddTorque (spawnedObject.transform.right * m_adThrowForce * 2.5f);
+                spawnedObject.GetComponent<Rigidbody> ().AddTorque (spawnedObject.transform.forward * m_adThrowForce * -2.5f);
+            } else {
+                GetComponent<AudioSource> ().Play ();
+            }
+
+            return spawnedObject;
+        }
 
         public void CommitTown ()
         {
             _currentTown.transform.Find ("glass-ball").gameObject.SetActive (false);
             ToggleDevPanel (false);
             _placingPeople = true;
+            _spawnCount = 0;
         }
 
         public void DeleteTown ()

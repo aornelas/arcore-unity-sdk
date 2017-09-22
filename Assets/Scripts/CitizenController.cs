@@ -28,9 +28,15 @@ public class CitizenController : MonoBehaviour
     public void OnCollisionEnter (Collision col)
     {
         if (col.gameObject.CompareTag ("Floor")) {
-            // TODO: Orient vertically
             GetComponent<Animator> ().SetBool ("Grounded_b", true);
-            GetComponent<Rigidbody> ().isKinematic = true;
+//            GetComponent<Rigidbody> ().isKinematic = true;
+//            RaycastHit hit;
+//            if (Physics.Raycast(transform.position, transform.forward, out hit))
+//            {
+//                transform.position = new Vector3 (transform.position.x, hit.point.y, transform.position.z);
+//            }
+            transform.rotation = Quaternion.Euler (0.0f, transform.rotation.eulerAngles.y, transform.rotation.z);
+
         }
     }
 }

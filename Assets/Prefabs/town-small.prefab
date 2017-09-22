@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 64092783336809038}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 64677830598469578}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 64421517298966546}
   m_Layer: 0
   m_Name: car_seperate_blue
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 64338924037611014}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 64368326961614470}
   m_Layer: 0
   m_Name: fence_long_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 64138006086637436}
   m_Layer: 0
   m_Name: Building_OfficeMedium_Brown
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 64927871660598800}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 64642673814165612}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 64847676315188812}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -287,7 +287,7 @@ GameObject:
   - component: {fileID: 64730791584061736}
   m_Layer: 0
   m_Name: car_seperate_green
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 64572558274440380}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 64759166995565942}
   m_Layer: 0
   m_Name: ute_empty_seperate_yellow
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -375,7 +375,7 @@ GameObject:
   - component: {fileID: 64022150739913108}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -393,7 +393,7 @@ GameObject:
   - component: {fileID: 64391057691511516}
   m_Layer: 0
   m_Name: road_straight_clear_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 64029503908791994}
   m_Layer: 0
   m_Name: bin_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 64264702868236690}
   m_Layer: 0
   m_Name: car_seperate_red
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -480,7 +480,7 @@ GameObject:
   - component: {fileID: 64481134534860066}
   m_Layer: 0
   m_Name: Prop_Roadsign_03
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 64365049249333122}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -516,7 +516,7 @@ GameObject:
   - component: {fileID: 64770310630285014}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -534,7 +534,7 @@ GameObject:
   - component: {fileID: 64607395335999938}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -552,7 +552,7 @@ GameObject:
   - component: {fileID: 64764971156830554}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 64041969761266048}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -622,7 +622,7 @@ GameObject:
   - component: {fileID: 64033835940734662}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 64190392059634102}
   m_Layer: 0
   m_Name: road_straight_clear_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 64427735278461928}
   m_Layer: 0
   m_Name: road_crossing_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -676,7 +676,7 @@ GameObject:
   - component: {fileID: 64655853991803378}
   m_Layer: 0
   m_Name: car_seperate_red
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -694,7 +694,7 @@ GameObject:
   - component: {fileID: 64826166046653956}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -712,7 +712,7 @@ GameObject:
   - component: {fileID: 64713186982003382}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -730,7 +730,7 @@ GameObject:
   - component: {fileID: 64624923073585018}
   m_Layer: 0
   m_Name: van_seperate_green
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -765,7 +765,7 @@ GameObject:
   - component: {fileID: 64041328909596196}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -800,7 +800,7 @@ GameObject:
   - component: {fileID: 64891644945673784}
   m_Layer: 0
   m_Name: van_seperate_blue
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -818,7 +818,7 @@ GameObject:
   - component: {fileID: 64262756101390626}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -836,7 +836,7 @@ GameObject:
   - component: {fileID: 64177183821131976}
   m_Layer: 0
   m_Name: road_straight_clear_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -854,7 +854,7 @@ GameObject:
   - component: {fileID: 64727512964707174}
   m_Layer: 0
   m_Name: dumpster_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -872,7 +872,7 @@ GameObject:
   - component: {fileID: 64134794377493692}
   m_Layer: 0
   m_Name: dumpster_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -890,7 +890,7 @@ GameObject:
   - component: {fileID: 64995978590193508}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -908,7 +908,7 @@ GameObject:
   - component: {fileID: 64980371567357544}
   m_Layer: 0
   m_Name: dish_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -926,7 +926,7 @@ GameObject:
   - component: {fileID: 64479437433432572}
   m_Layer: 0
   m_Name: bin_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -976,7 +976,7 @@ GameObject:
   - component: {fileID: 64049690132379592}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -994,7 +994,7 @@ GameObject:
   - component: {fileID: 64169243970866898}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1012,7 +1012,7 @@ GameObject:
   - component: {fileID: 64804939805843632}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1030,7 +1030,7 @@ GameObject:
   - component: {fileID: 64982766395888310}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1048,7 +1048,7 @@ GameObject:
   - component: {fileID: 64725042823358126}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1066,7 +1066,7 @@ GameObject:
   - component: {fileID: 64808491566604026}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1101,7 +1101,7 @@ GameObject:
   - component: {fileID: 64939895839994116}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1136,7 +1136,7 @@ GameObject:
   - component: {fileID: 64550990795382702}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1188,7 +1188,7 @@ GameObject:
   - component: {fileID: 64890607453726250}
   m_Layer: 0
   m_Name: Building_BaberShop
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1223,7 +1223,7 @@ GameObject:
   - component: {fileID: 64802507071811010}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1241,7 +1241,7 @@ GameObject:
   - component: {fileID: 64577197511839462}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1259,7 +1259,7 @@ GameObject:
   - component: {fileID: 64897576664623116}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1294,7 +1294,7 @@ GameObject:
   - component: {fileID: 64578002197609088}
   m_Layer: 0
   m_Name: Aerial_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1363,7 +1363,7 @@ GameObject:
   - component: {fileID: 64937332867127752}
   m_Layer: 0
   m_Name: ute_empty_seperate_yellow
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1398,7 +1398,7 @@ GameObject:
   - component: {fileID: 64890485797377012}
   m_Layer: 0
   m_Name: Building_Cinema
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1416,7 +1416,7 @@ GameObject:
   - component: {fileID: 64016868788663148}
   m_Layer: 0
   m_Name: fire_truck_seperate_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1434,7 +1434,7 @@ GameObject:
   - component: {fileID: 64445782017370584}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1520,7 +1520,7 @@ GameObject:
   - component: {fileID: 64674351749397972}
   m_Layer: 0
   m_Name: van_seperate_green
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1555,7 +1555,7 @@ GameObject:
   - component: {fileID: 64953349103775858}
   m_Layer: 0
   m_Name: traffic_light_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1573,7 +1573,7 @@ GameObject:
   - component: {fileID: 64131157153800116}
   m_Layer: 0
   m_Name: pipe_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1608,7 +1608,7 @@ GameObject:
   - component: {fileID: 64740137599626976}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1626,7 +1626,7 @@ GameObject:
   - component: {fileID: 64414969395960878}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1661,7 +1661,7 @@ GameObject:
   - component: {fileID: 64139224770021602}
   m_Layer: 0
   m_Name: trash_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1679,7 +1679,7 @@ GameObject:
   - component: {fileID: 64888821384765060}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1714,7 +1714,7 @@ GameObject:
   - component: {fileID: 64119043194110374}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1749,7 +1749,7 @@ GameObject:
   - component: {fileID: 64024143985153698}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1767,7 +1767,7 @@ GameObject:
   - component: {fileID: 64725787993042210}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1785,7 +1785,7 @@ GameObject:
   - component: {fileID: 64838059644658608}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1837,7 +1837,7 @@ GameObject:
   - component: {fileID: 64368533852676678}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1855,7 +1855,7 @@ GameObject:
   - component: {fileID: 64369329653722980}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1873,7 +1873,7 @@ GameObject:
   - component: {fileID: 64489605446889592}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1891,7 +1891,7 @@ GameObject:
   - component: {fileID: 64157155823207996}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1909,7 +1909,7 @@ GameObject:
   - component: {fileID: 64418178090423946}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1995,7 +1995,7 @@ GameObject:
   - component: {fileID: 64559225835375476}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2013,7 +2013,7 @@ GameObject:
   - component: {fileID: 64374150940415642}
   m_Layer: 0
   m_Name: taxi_seperate_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2099,7 +2099,7 @@ GameObject:
   - component: {fileID: 64310113824409072}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2117,7 +2117,7 @@ GameObject:
   - component: {fileID: 64697600227181108}
   m_Layer: 0
   m_Name: road_square_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2135,7 +2135,7 @@ GameObject:
   - component: {fileID: 64631273995462486}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2153,7 +2153,7 @@ GameObject:
   - component: {fileID: 64602391656736226}
   m_Layer: 0
   m_Name: dumpster_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2171,7 +2171,7 @@ GameObject:
   - component: {fileID: 64350061184072080}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2189,7 +2189,7 @@ GameObject:
   - component: {fileID: 64099283377989210}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2207,7 +2207,7 @@ GameObject:
   - component: {fileID: 64858331086906698}
   m_Layer: 0
   m_Name: road_straight_clear_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2225,7 +2225,7 @@ GameObject:
   - component: {fileID: 64300021402116506}
   m_Layer: 0
   m_Name: traffic_light_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2260,7 +2260,7 @@ GameObject:
   - component: {fileID: 64320766505596250}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2312,7 +2312,7 @@ GameObject:
   - component: {fileID: 64630264083647212}
   m_Layer: 0
   m_Name: road_straight_clear_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2364,7 +2364,7 @@ GameObject:
   - component: {fileID: 64950575740619210}
   m_Layer: 0
   m_Name: car_seperate_green
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2382,7 +2382,7 @@ GameObject:
   - component: {fileID: 64870716534412534}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2400,7 +2400,7 @@ GameObject:
   - component: {fileID: 64030582529072944}
   m_Layer: 0
   m_Name: billboard_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2418,7 +2418,7 @@ GameObject:
   - component: {fileID: 64070991647026312}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2436,7 +2436,7 @@ GameObject:
   - component: {fileID: 64619152267758730}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2503,7 +2503,7 @@ GameObject:
   - component: {fileID: 64947836908898812}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2555,7 +2555,7 @@ GameObject:
   - component: {fileID: 64785015248473266}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2573,7 +2573,7 @@ GameObject:
   - component: {fileID: 64896100890098430}
   m_Layer: 0
   m_Name: fence_short_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2608,7 +2608,7 @@ GameObject:
   - component: {fileID: 64023940051664510}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2626,7 +2626,7 @@ GameObject:
   - component: {fileID: 64333752791790242}
   m_Layer: 0
   m_Name: ute_seperate_yellow
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2644,7 +2644,7 @@ GameObject:
   - component: {fileID: 64696672439945994}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2696,7 +2696,7 @@ GameObject:
   - component: {fileID: 64543590202086722}
   m_Layer: 0
   m_Name: bin_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2731,7 +2731,7 @@ GameObject:
   - component: {fileID: 64184910475780994}
   m_Layer: 0
   m_Name: van_seperate_red
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2749,7 +2749,7 @@ GameObject:
   - component: {fileID: 64594737249769070}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2767,7 +2767,7 @@ GameObject:
   - component: {fileID: 64718739431257350}
   m_Layer: 0
   m_Name: traffic_light_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2785,7 +2785,7 @@ GameObject:
   - component: {fileID: 64393512919312320}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2820,7 +2820,7 @@ GameObject:
   - component: {fileID: 64961353442421732}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2872,7 +2872,7 @@ GameObject:
   - component: {fileID: 64592861264373054}
   m_Layer: 0
   m_Name: dumpster_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2890,7 +2890,7 @@ GameObject:
   - component: {fileID: 64490191333412384}
   m_Layer: 0
   m_Name: store_small_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2908,7 +2908,7 @@ GameObject:
   - component: {fileID: 64547043062462738}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2943,7 +2943,7 @@ GameObject:
   - component: {fileID: 64704079102441332}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2961,7 +2961,7 @@ GameObject:
   - component: {fileID: 64343584864105494}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2979,7 +2979,7 @@ GameObject:
   - component: {fileID: 64628378031899092}
   m_Layer: 0
   m_Name: hydrant_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2997,7 +2997,7 @@ GameObject:
   - component: {fileID: 64572068404428300}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3032,7 +3032,7 @@ GameObject:
   - component: {fileID: 64765603724637354}
   m_Layer: 0
   m_Name: bin_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3082,7 +3082,7 @@ GameObject:
   - component: {fileID: 64336162748211572}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3100,7 +3100,7 @@ GameObject:
   - component: {fileID: 64276147490450466}
   m_Layer: 0
   m_Name: car_seperate_blue
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3135,7 +3135,7 @@ GameObject:
   - component: {fileID: 64879479398249080}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3170,7 +3170,7 @@ GameObject:
   - component: {fileID: 64833164010459666}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3188,7 +3188,7 @@ GameObject:
   - component: {fileID: 64686143684312452}
   m_Layer: 0
   m_Name: Building_Gym
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3206,7 +3206,7 @@ GameObject:
   - component: {fileID: 64905740571241870}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3224,7 +3224,7 @@ GameObject:
   - component: {fileID: 64162622830024750}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3242,7 +3242,7 @@ GameObject:
   - component: {fileID: 64127281384739332}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3260,7 +3260,7 @@ GameObject:
   - component: {fileID: 64281041229493198}
   m_Layer: 0
   m_Name: traffic_light_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3295,7 +3295,7 @@ GameObject:
   - component: {fileID: 64170086641100528}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3313,7 +3313,7 @@ GameObject:
   - component: {fileID: 64555950070014300}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3332,7 +3332,7 @@ GameObject:
   - component: {fileID: 64005531546245156}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3350,7 +3350,7 @@ GameObject:
   - component: {fileID: 64426423318383098}
   m_Layer: 0
   m_Name: pipe_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3368,7 +3368,7 @@ GameObject:
   - component: {fileID: 64037316494419150}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3403,7 +3403,7 @@ GameObject:
   - component: {fileID: 64247461354806434}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3421,7 +3421,7 @@ GameObject:
   - component: {fileID: 64197597782381908}
   m_Layer: 0
   m_Name: road_crossing_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3439,7 +3439,7 @@ GameObject:
   - component: {fileID: 64253228968029154}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3457,7 +3457,7 @@ GameObject:
   - component: {fileID: 64000567979774622}
   m_Layer: 0
   m_Name: car_seperate_green
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3475,7 +3475,7 @@ GameObject:
   - component: {fileID: 64482463500743728}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3544,7 +3544,7 @@ GameObject:
   - component: {fileID: 64316760604676468}
   m_Layer: 0
   m_Name: bus_seperate_grey
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3562,7 +3562,7 @@ GameObject:
   - component: {fileID: 64684555275260818}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3580,7 +3580,7 @@ GameObject:
   - component: {fileID: 64676782669817056}
   m_Layer: 0
   m_Name: trash_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3598,7 +3598,7 @@ GameObject:
   - component: {fileID: 64502615603590970}
   m_Layer: 0
   m_Name: trash_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3616,7 +3616,7 @@ GameObject:
   - component: {fileID: 64978812226259134}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3668,7 +3668,7 @@ GameObject:
   - component: {fileID: 64012151040675964}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3703,7 +3703,7 @@ GameObject:
   - component: {fileID: 64674740074723240}
   m_Layer: 0
   m_Name: dish_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3738,7 +3738,7 @@ GameObject:
   - component: {fileID: 64834313898768806}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3756,7 +3756,7 @@ GameObject:
   - component: {fileID: 64350029296250248}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3774,7 +3774,7 @@ GameObject:
   - component: {fileID: 64974354980968368}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3809,7 +3809,7 @@ GameObject:
   - component: {fileID: 64065167424696426}
   m_Layer: 0
   m_Name: car_seperate_red
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3827,7 +3827,7 @@ GameObject:
   - component: {fileID: 64792644766927574}
   m_Layer: 0
   m_Name: road_bend_left_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3845,7 +3845,7 @@ GameObject:
   - component: {fileID: 64543870767400076}
   m_Layer: 0
   m_Name: cop_seperate_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3897,7 +3897,7 @@ GameObject:
   - component: {fileID: 64127253465447320}
   m_Layer: 0
   m_Name: road_crossing_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3932,7 +3932,7 @@ GameObject:
   - component: {fileID: 64153052646548658}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3950,7 +3950,7 @@ GameObject:
   - component: {fileID: 64635600332813860}
   m_Layer: 0
   m_Name: bin_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3968,7 +3968,7 @@ GameObject:
   - component: {fileID: 64650231281254210}
   m_Layer: 0
   m_Name: store_small_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3986,7 +3986,7 @@ GameObject:
   - component: {fileID: 64021629900649912}
   m_Layer: 0
   m_Name: road_straight_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4004,7 +4004,7 @@ GameObject:
   - component: {fileID: 64606093324291630}
   m_Layer: 0
   m_Name: hydrant_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4022,7 +4022,7 @@ GameObject:
   - component: {fileID: 64495164526645788}
   m_Layer: 0
   m_Name: car_seperate_blue
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4057,7 +4057,7 @@ GameObject:
   - component: {fileID: 64219925325393384}
   m_Layer: 0
   m_Name: road_corner_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4092,7 +4092,7 @@ GameObject:
   - component: {fileID: 64823552967883962}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4127,7 +4127,7 @@ GameObject:
   - component: {fileID: 64465007972047878}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4145,7 +4145,7 @@ GameObject:
   - component: {fileID: 64001882171656066}
   m_Layer: 0
   m_Name: road_crossing_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4180,7 +4180,7 @@ GameObject:
   - component: {fileID: 64696574554798734}
   m_Layer: 0
   m_Name: ambo_seperate
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4198,7 +4198,7 @@ GameObject:
   - component: {fileID: 64347201950857940}
   m_Layer: 0
   m_Name: lamp_mesh
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
